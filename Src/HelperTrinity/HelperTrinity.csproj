@@ -18,6 +18,8 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <PackageId>HelperTrinity.Net5</PackageId>
+    <PackageLicense>https://github.com/starkna/TheHelperTrinity/blob/master/LICENSE</PackageLicense>
+    <PackageProjectUrl>https://github.com/starkna/TheHelperTrinity</PackageProjectUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
