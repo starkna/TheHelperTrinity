@@ -1,4 +1,4 @@
 ﻿using System.Reflection;
 
 [assembly: AssemblyTitle("The Helper Trinity")]
-[assembly: AssemblyDescription("A set of helper classes applicable to almost any .NET coding venture.")]
+[assembly: AssemblyDescription("This is a fork of HelperTrinity built for .NET 5.")]

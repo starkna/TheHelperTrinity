@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{9BC3003D-6A25-4547-A9CE-0B0016399429}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{9BC300
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperTrinity", "HelperTrinity\HelperTrinity.csproj", "{673733C4-CBA3-43FB-B519-A6BFAC83D9C3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperTrinity.UnitTests", "HelperTrinity.UnitTests\HelperTrinity.UnitTests.csproj", "{0896198E-696F-4368-BA1F-429E932B037A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,12 +22,11 @@ Global
 		{673733C4-CBA3-43FB-B519-A6BFAC83D9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673733C4-CBA3-43FB-B519-A6BFAC83D9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673733C4-CBA3-43FB-B519-A6BFAC83D9C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0896198E-696F-4368-BA1F-429E932B037A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0896198E-696F-4368-BA1F-429E932B037A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0896198E-696F-4368-BA1F-429E932B037A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0896198E-696F-4368-BA1F-429E932B037A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53EF287F-0E48-415E-91F7-43FF29686101}
 	EndGlobalSection
 EndGlobal
