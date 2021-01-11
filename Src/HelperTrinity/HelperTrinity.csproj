@@ -20,6 +20,7 @@
     <PackageId>HelperTrinity.Net5</PackageId>
     <PackageLicense>https://github.com/starkna/TheHelperTrinity/blob/master/LICENSE</PackageLicense>
     <PackageProjectUrl>https://github.com/starkna/TheHelperTrinity</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -37,6 +38,10 @@
     <EmbeddedResource Include="Properties\ExceptionHelper.xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="project.json" />
   </ItemGroup>
 </Project>
